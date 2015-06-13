@@ -1,0 +1,33 @@
+1) How did viewing a difference btween 2 versions of a file help you spot the bug?
+
+It was helpful because showed which lines had changed. By looking at these changes I could spot the bug as it would have come from a change in the code
+
+2)How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having easy access to the history means you can see changes you made at any and all points or changes any other programmer made so can determine what has changed and how that has affected your program. More efficient too because can take parts of the program you have changed at an earlier stage and reuse them.
+
+3) How often should you make a commit?
+
+Make one commint per logical change. For example, if you fixed a typo, then fixed a bug in a separate part of the file, you should use one commit for each change since they are logically separate. If you do this, each commit will have one purpose that can be easily understood. Git allows you to write a short message explaining what was changed in each commit, and that message will be more useful if each commit has a single logical change.
+
+4)What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros of manually choosing are that probably commit at correct times so less chance of irrational commits. Cons are that human error could cause code to not be committed and becomes corrupted. Pro of auto saving is relieves human error however can lead to irrational commits which clutter it up.
+
+5) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Google Docs probably treats each file seperately because it is mainly used for changing documents that are not related to other documents whereas the files on git are most likely used in programming ventures and therefore need to see how other files are affecting them when they are changed so the multifile commit is useful here but not for google docs.
+
+6) How can you use the commands git log and git diff to view the history of files?
+
+git log shows all git commits that have happended. git diff can then be used to see the differences between the 2 commits to determine what has been changed.
+
+7)How might using version control make you more confident to make changes that could break something?
+
+Makes me more confident because if I break something, can return to the previous commit and compare what is different between the 2 files. This means I can make changes that may cause bugs but as soon as I notice the bug can go back to time when there was no bug and therefore determine what is causing it and how to fix it.
+
+8)Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git to develop ios Apps that I will put on the app store!
+
+
