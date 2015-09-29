@@ -19,3 +19,12 @@ New branch for every feature or bug-fix, then update master or combine with curr
 5) How do the diagrams help you visualize the branch structure?
 	
 Helps visualize the branch structure because shows which commit is most recent, what branch they are on and whether they will be saved or not depending on if a commit has happened!
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging 2 branches together is the branch merges with the master and becomes one branch/master. The file then has all the code from both commits which are listed by time variable! We represent it like that because it is easy to read.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros of auto merging is that saves time and is not annoying. Con is that it might delete something important etc.
+Pro of manually merging is that something odd to git will seem obvious to you so can easily commit correct thing. Con is that annoying
