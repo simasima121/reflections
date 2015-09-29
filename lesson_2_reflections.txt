@@ -9,3 +9,13 @@ Staging area is different because it allows files to be grouped together and com
 3) How can you use the staging area to make sure you have one commit per logical change?
 
 Add files to the staging area, then use git diff --staged to see what has changed between the commit you've added and the commit that has been changed. If there is a logical change, then add otherwise do not!
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are helpful in situations where I want to test new features that are not core or change language, maybe make game easier etc but do not affect core code and so I don't want to change the core code! Branches help because they allow me to develop the code on a branch and determine whether or not I think its good, then if I do i can commit and make the change across the whole app.
+
+New branch for every feature or bug-fix, then update master or combine with current master with git merge
+
+5) How do the diagrams help you visualize the branch structure?
+	
+Helps visualize the branch structure because shows which commit is most recent, what branch they are on and whether they will be saved or not depending on if a commit has happened!
