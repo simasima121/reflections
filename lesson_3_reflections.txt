@@ -1,3 +1,23 @@
 1) When would you want to use a remote repository rather than keeping all your work local?
 
 Use remote repository rather than local if you are going somewhere you cant take your files or if you want to colloborate with someone who is not with you.
+
+2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Pull changes manually because if 2 people are working on same thing, don't want it to auto update which may fragment code or break what they are working on. Gives you more freedom onto what should be online
+
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Difference between forks and clones are forks download straight to github servers and users on there can see that you took it from someones elses code. Clones are downloaded straight from github to your local repo and then can be reuploaded. Branches are a way of coding new features etc that are not consumer ready without changing the master structures
+
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Allows you to work remotely without internet access i.e on a plane 
+
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+To collaborate without git, I would create the code and send it manually to other users, who would then update portions and build on it and send it back. It would be harder to keep track of what they had done and if they had created issues from something they built but might be easier to ensure only one person is using the files etc.
+
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Make changes in seperate branch when building out new features or fixing bugs. This means that the master branch will still be operational whilst you fix things and so main product will work fine. The benefit is that gives you more freedom to making things better!
